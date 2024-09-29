@@ -5,7 +5,7 @@ from src import consolePrint as cp
 from src.constants import banner,options
 from src.vision import Vision
 
-from src.socialNetworks.instagramAnalyzer import InstagramAnalyzer
+from src.social.instagramAnalyzer import InstagramAnalyzer
 
 load_dotenv()
 
@@ -40,7 +40,7 @@ def main():
     userInput = input(">:")
     cp.printConsole("\n",cp.GREEN)
     evaluateCommand(userInput)
-
+  
 
     
 
